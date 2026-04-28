@@ -1,12 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
 :root {
-    --cor-de-fundo: #1E1E1E;
-    --azul: #6FFF57;
-    --branco: #FFFFFF;
-    --botao-ativo: #3A375E;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+    /* Tons de Fundo e Superfície */
+    --cor-de-fundo: #F4F7F6;       /* Cinza muito claro, quase branco */
+    --branco: #FFFFFF;             /* Cor dos cards dos dias */
+    
+    /* Cores de Texto */
+    --texto-principal: #2D3436;    /* Cinza escuro para leitura */
+    --texto-secundario: #636E72;   /* Cinza médio para dias de outros meses */
+    
+    /* Cores de Identidade (Azul Calendário) */
+    --azul-primario: #0984E3;      /* Azul vibrante para o dia atual/selecionado */
+    --azul-suave: #E1F5FE;         /* Azul clarinho para hover ou eventos */
+    
+    /* Estados de Botões e Interação */
+    --botao-ativo: #0984E3;        /* Cor sólida para ações */
+    --botao-inativo: #DFE6E9;      /* Cinza claro para dias desabilitados */
+    --texto-fundo: rgba(9, 132, 227, 0.1); /* Fundo sutil para marcação de eventos */
 }
 
 body {
